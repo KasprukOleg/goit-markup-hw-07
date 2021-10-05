@@ -1,0 +1,61 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+
+.logo-item {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--hero-text-color);
+    }
+
+.logo-item {
+    font-family: 'Raleway', sans-serif;
+    }
+  
+.web {
+    color: var(--accent-color);
+    }
+
+/* ----------ADRESS---------- */
+
+.adress-live {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--hero-text-color);
+    }
+
+.contact {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    }
+
+.footer {
+    background-color: var(--fon-color);
+    }
+.contact {
+    text-decoration: none;
+    }
+
+.contact-list {
+    margin-bottom: 0;
+    padding-left: 0;
+    }
+
+.mail {
+    margin-bottom: 9px;
+    } 
+
+.town-street {
+    margin-top: 0;
+    margin-bottom: 0;
+    }

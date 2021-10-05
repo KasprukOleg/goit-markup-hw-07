@@ -1,0 +1,65 @@
+.section-command {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.command { 
+margin-top: 0;
+margin-bottom: 50px;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+color: var(--title-text-colors);
+    }
+
+.command-item {
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--hero-text-color);
+}
+
+.command-item:not(:last-child) {
+margin-right: 30px;
+}
+
+.section {
+margin-bottom: 10px;
+margin-top: 0;
+text-align: center;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: var(--title-text-colors);
+    }
+
+.section-title {
+font-style: normal;
+font-weight: normal;
+margin-top: 0;
+text-align: center;
+margin-bottom: 16px;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: var(--primery-color);
+}    
+
+.section-command {
+    background-color: var(--fon-color-button);
+}
+
+.command-list {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+    display: flex;
+    }
+
+.command-link {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

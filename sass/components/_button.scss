@@ -1,0 +1,24 @@
+/* ----------BUTTON---------- */
+
+.button-link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.button-link {
+    background-color: var(--fon-knob);
+    color: var(--hero-text-color);
+     }
+.button-link:hover,
+.button-link:focus {
+    background-color: var(--accent-color);
+    color: var(--hero-text-color);
+    }

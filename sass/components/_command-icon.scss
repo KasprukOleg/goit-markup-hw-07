@@ -1,0 +1,43 @@
+.command-social-network{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 16px;
+    margin-right: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    }
+
+.command-social-style{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    justify-content: center;
+    }
+
+.command-social-icon:hover,
+.command-social-icon:focus {
+    background-color: var(--accent-color);
+    fill: var(--hero-text-color);
+    }
+
+.command-social-icon {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    fill: var(--fon-icon);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms var(--timing-function);
+    }
+
+.command-social-style:not(:last-child) {
+    margin-right: 10px;
+    }
+
+.command-social-network {
+    margin-top: 0;
+    display: flex;
+   }

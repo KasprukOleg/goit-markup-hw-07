@@ -1,0 +1,20 @@
+.btn {
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 8px;
+    right: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--hero-text-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition-property: background-color, border;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
+    }
+
+.btn:hover {
+    fill: var(--accent-color);
+    }

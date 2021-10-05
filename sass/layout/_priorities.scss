@@ -1,0 +1,60 @@
+.priorities-list {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-colors);
+    }
+    
+    .priorities {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--primery-color);
+    }
+    
+    .priorities-list .item {
+        background-color: var(--title-color);
+        }
+    
+    .priorities-list-title {
+        text-transform: none;
+    }  
+    
+    .priorities-list-title {
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+         }
+    
+    .priorities-item {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }    
+    
+    .priorities-logos {
+        display: block;
+        }
+    
+    .priorities-box:not(:last-child) {
+        margin-right: 30px;
+    }
+    
+    .priorities-logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-color: var(--fon-color-button);
+        margin-bottom: 30px;
+        border-radius: 4px;
+        height: 120px;
+        }
