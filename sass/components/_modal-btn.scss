@@ -13,8 +13,8 @@
     transition-property: background-color, border;
     transition-duration: 250ms;
     transition-timing-function: var(--timing-function);
+    &:hover {
+        fill: var(--accent-color);
+        }
     }
 
-.btn:hover {
-    fill: var(--accent-color);
-    }

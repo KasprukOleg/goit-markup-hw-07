@@ -12,13 +12,14 @@
     top: 430px;
     cursor: pointer;
     border-radius: 4px;
-}
-.button-link {
-    background-color: var(--fon-knob);
-    color: var(--hero-text-color);
-     }
-.button-link:hover,
-.button-link:focus {
+    & {
+        background-color: var(--fon-knob);
+        color: var(--hero-text-color);
+    }
+    &:hover,
+    &:focus {
     background-color: var(--accent-color);
     color: var(--hero-text-color);
     }
+}
+

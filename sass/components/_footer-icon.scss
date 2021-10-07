@@ -52,22 +52,21 @@ footer .container {
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.1);
-    transition: background-color 250ms var(--timing-function);   
-    }
-
-.footer-social-link:hover,
-.footer-social-link:focus {
+    transition: background-color 250ms var(--timing-function); 
+    &:hover,
+    &:focus {
     background-color: var(--accent-color);
     fill: var(--hero-text-color);
-    }
+    }  
+}
 
 .footer-social-list {
     display: flex;
     cursor: pointer;
     align-items: center;
     justify-content: center;
+    &:not(:last-child) {
+        margin-right: 10px;
     }
+}
     
-.footer-social-list:not(:last-child) {
-    margin-right: 10px;
-    }

@@ -20,17 +20,14 @@ color: var(--title-text-colors);
     padding-right: 0;
     display: flex;
     }
+
 .work-item {
     width: 370px;
-}   
-
-.work-item:not(:last-child) {
-margin-right: 30px;
-}
-
-.work-item {
     position: relative;
-}
+    &:not(:last-child) {
+        margin-right: 30px;
+        }
+}   
 
 .work-name {
     display: flex;

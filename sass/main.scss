@@ -1,4 +1,4 @@
-@import './utils/vars';
+@import './utils/variables';
 @import './base/reset';
 @import './layout/header';
 @import './layout/hero';
@@ -16,3 +16,6 @@
 @import './components/modal-btn';
 @import './layout/modal-information';
 @import './components/form-button';
+@import './layout/portfolio';
+@import './components/filter-button';
+@import './layout/work-pages';

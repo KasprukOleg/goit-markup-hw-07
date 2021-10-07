@@ -16,12 +16,6 @@
     justify-content: center;
     }
 
-.command-social-icon:hover,
-.command-social-icon:focus {
-    background-color: var(--accent-color);
-    fill: var(--hero-text-color);
-    }
-
 .command-social-icon {
     display: flex;
     width: 100%;
@@ -31,13 +25,13 @@
     align-items: center;
     justify-content: center;
     transition: background-color 250ms var(--timing-function);
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+    fill: var(--hero-text-color);
+    }
     }
 
 .command-social-style:not(:last-child) {
     margin-right: 10px;
     }
-
-.command-social-network {
-    margin-top: 0;
-    display: flex;
-   }
