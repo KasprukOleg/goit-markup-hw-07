@@ -116,7 +116,7 @@ p, h1, h2, h3, h4, h5 {
   text-decoration: none;
 }
 
-.header-list__link link .current {
+.header-list__link .current {
   color: var(--accent-color);
 }
 
@@ -160,7 +160,7 @@ p, h1, h2, h3, h4, h5 {
   position: relative;
 }
 
-.contact-nav {
+.contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -177,7 +177,7 @@ p, h1, h2, h3, h4, h5 {
   margin-left: auto;
 }
 
-.contact-nav .link {
+.contact__link {
   display: block;
   font-style: normal;
   font-weight: 500;
@@ -186,16 +186,16 @@ p, h1, h2, h3, h4, h5 {
   color: var(--primery-color);
 }
 
-.contact-nav .link .link:hover,
-.contact-nav .link .link:focus {
+.contact__link .link:hover,
+.contact__link .link:focus {
   color: var(--accent-color);
 }
 
-.contact-nav .item + .item {
+.contact__item + .item {
   margin-left: 50px;
 }
 
-.item-icon .link {
+.contact__item {
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -208,7 +208,7 @@ p, h1, h2, h3, h4, h5 {
   transition: color 250ms var(--timing-function);
 }
 
-.icon-mail, .icon-tel {
+.contact__icon-mail, .contact__icon-tel {
   margin-right: 10px;
 }
 
