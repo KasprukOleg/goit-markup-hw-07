@@ -1,43 +1,32 @@
 .header {
-    .container {
-        display: flex;
+    border-bottom: 1px solid #ECECEC;
+    background-color: var(--hero-text-color);
     }
-    & {
-        border-bottom: 1px solid #ECECEC;
-        background-color: var(--hero-text-color);
-        }
-}
 
-.container {
-    .main-nav {
-        display: flex;
-        align-items: center;
-        }
-}
-
-.header-logo__web {
-    text-decoration: none;
+.wrapper {
     display: flex;
+    align-items: center;
+    }
+
+.logo {
+    text-decoration: none;
+    display: block;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
     color: var(--logo-color);
-    transition: color 250ms var(--timing-function);
     & {
         font-family: $secondaryFont;
-          }
-    &:hover  {
-        color: var(--accent-color);
         }
 }
 
-.header-logo__web {
-        color: var(--accent-color);
-      }
+.web {
+    color: var(--accent-color);
+    }
 
-.header-list {
-display: block;
+.site-nav__link {
+display: flex;
 padding-top: 32px;
 padding-bottom: 32px;
 font-style: normal;
@@ -55,25 +44,25 @@ transition: color 250ms var(--timing-function);
     }
 }
 
-.header-list__link--current {
+.site-nav__link {
     color: var(--accent-color);
     }
 
-.header-list {
+.site-nav {
     display: flex;
     margin-top: 0;
     margin-left: 93px;
     }
 
-.header-list__item:last-child {
+.site-nav__item:last-child {
     margin-right: 0;
 }
 
-.header-list__item {
+.site-nav__item {
     margin-right: 50px;
     }
 
-.header-list__item:not(:last-child) {
+.site-nav__item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -95,7 +84,7 @@ transition: color 250ms var(--timing-function);
         }
     }
 
-.contact {
+.connection {
 display: flex;
 margin-left: auto;
 align-items: center;
@@ -108,8 +97,8 @@ margin-top: 0;
 margin-left: auto;
 }
 
-.contact__link {
-    display: block;
+.connection__link {
+    display: flex;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -121,11 +110,11 @@ margin-left: auto;
 }
     }
 
-.contact__item + .contact__item {
+.connection__item {
     margin-left: 50px;
     }
 
-.contact__item {
+.connection__item {
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -133,6 +122,7 @@ margin-left: auto;
     transition: color 250ms var(--timing-function);
 }
 
-.contact__icon-mail, .contact__icon-tel {
+.connection__icon-mail, .connection__icon-tel {
     margin-right: 10px;
+    fill: currentColor;
 }
