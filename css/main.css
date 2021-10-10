@@ -82,9 +82,7 @@ p, h1, h2, h3, h4, h5 {
 }
 
 .site-nav__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
   font-style: normal;
@@ -148,7 +146,7 @@ p, h1, h2, h3, h4, h5 {
   position: relative;
 }
 
-.connection {
+.contacts__connection {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,32 +158,29 @@ p, h1, h2, h3, h4, h5 {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
-  display: flex;
   margin-top: 0;
   margin-left: auto;
 }
 
-.connection__link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.connection-link {
+  display: block;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: 0.02em;
   color: var(--primery-color);
 }
 
-.connection__link .link:hover,
-.connection__link .link:focus {
+.connection-link:hover {
   color: var(--accent-color);
 }
 
-.connection__item {
+.connection__item + .connection__item {
   margin-left: 50px;
 }
 
-.connection__item {
+.connection__item + .connection__link {
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,6 +196,9 @@ p, h1, h2, h3, h4, h5 {
 .connection__icon-mail, .connection__icon-tel {
   margin-right: 10px;
   fill: currentColor;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero {
