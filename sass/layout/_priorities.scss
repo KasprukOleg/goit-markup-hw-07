@@ -1,4 +1,4 @@
-.priorities-list {
+.priorities__list {
     margin-bottom: 10px;
     margin-top: 30px;
     font-style: normal;
@@ -11,17 +11,13 @@
     }
     
     .priorities {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--primery-color);
     }
     
-    .priorities-list .item {
+    .priorities__list .item {
         background-color: var(--title-color);
         }
     
@@ -40,11 +36,11 @@
         padding-bottom: 94px;
     }    
     
-    .priorities-box:not(:last-child) {
+    .priorities__box:not(:last-child) {
         margin-right: 30px;
     }
     
-    .priorities-logos {
+    .priorities__logos {
         display: flex;
         justify-content: center;
         align-items: center;

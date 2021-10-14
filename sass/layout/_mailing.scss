@@ -1,8 +1,8 @@
-.mailing-form {
+.mailing__form {
     margin-left: 93px;
 }
 
-.mailing-title {
+.mailing__title {
     display: block;
     margin-right: 0;
     margin-top: 0;
@@ -17,15 +17,15 @@
     color: var(--hero-text-color);
 }
 
-.mailing-sign {
+.mailing__sign {
     display: flex;
 }
 
-.mailing-sign-input {
+.mailing--sign__input {
     margin-right: 12px;
 }
 
-.mailing-input {
+.mailing__input {
     display: flex;
     width: 358px;
     height: 50px;

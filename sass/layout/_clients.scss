@@ -4,13 +4,13 @@
     padding-bottom: 94px;
 }
 
-.client-list {
+.client__list {
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
     }
 
-.clients-title {
+.clients__title {
     display: block;
     font-weight: 700px;
     font-size: 36px;
@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-.client-item {
+.client__item {
     width: 170px;
     height: 92px;
     border-radius: 4px;
@@ -28,7 +28,7 @@
     }
 }
 
-.clients-link {
+.clients__link {
     border: 1px solid #afb1b8;
     display: flex;
     align-items: center;
@@ -44,7 +44,7 @@
 }
     }
 
-.client-icon {
+.client__icon {
     width: 106px;
     height: 60px;
     fill: currentColor;

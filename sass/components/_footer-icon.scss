@@ -4,24 +4,24 @@
     justify-content: center;
     }
 
-svg .footer-social-svg{
+svg .footer--social__svg{
     width: 20px;
     height: 20px;
     }
 
-footer .container {
+.footer .container {
     display: flex;
     align-items: baseline;
     }
 
-.footer-icon {
+.footer__icon {
     display: block;
     align-items: center;
     justify-content: center;
     margin-left: 70px;
     }
 
-.join-title {
+.join__title {
     display: block;
     color: var(--hero-text-color);
     margin-right: 0;
@@ -35,7 +35,7 @@ footer .container {
     line-height: 16px;
     }
 
-.footer-social-icon {
+.footer--social__icon {
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
@@ -43,7 +43,7 @@ footer .container {
     justify-content: center;
     }
 
-.footer-social-link {
+.footer--social__link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -60,7 +60,7 @@ footer .container {
     }  
 }
 
-.footer-social-list {
+.footer--social__list {
     display: flex;
     cursor: pointer;
     align-items: center;

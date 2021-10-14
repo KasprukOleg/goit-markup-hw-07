@@ -7,11 +7,12 @@
     background-color: rgba(0, 0, 0, 0.2);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     opacity: 1;
+    pointer-events: auto;
     visibility: visible;
     z-index: 2;
     }
 
-.backdrop.is-hidden {
+.backdrop .is-hidden {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
@@ -21,7 +22,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%);
     height: 581px;
     width: 528px;
     background-color: var(--hero-text-color);
@@ -31,5 +32,5 @@
     }
 
 .backdrop.is-hidden .modal {
-    transform: translate(-50%, -50%) scale(0.7);
+    transform: translate(-50%, -50%);
     }

@@ -4,13 +4,14 @@
     background-color: var(--fon-color);
     }
 
-.logo-item {
+.logo__item {
     display: inline-block;
     margin-bottom: 20px;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
+    text-decoration: none;
     color: var(--hero-text-color);
     font-family: 'Raleway', sans-serif;
  }
@@ -21,7 +22,7 @@
 
 /* ----------ADRESS---------- */
 
-.adress-live {
+.adress__live {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -40,7 +41,7 @@
         }
     }
 
-.contact-list {
+.contact__list {
     margin-bottom: 0;
     padding-left: 0;
     }
@@ -49,7 +50,7 @@
     margin-bottom: 9px;
     } 
 
-.town-street {
+.town__street {
     margin-top: 0;
     margin-bottom: 0;
     }

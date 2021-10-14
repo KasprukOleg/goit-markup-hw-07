@@ -2,7 +2,7 @@
     padding-bottom: 94px;
 }
 
-.section-works {
+.section__works {
 margin-bottom: 50px;
 margin-top: 0;
 font-style: normal;
@@ -14,14 +14,14 @@ letter-spacing: 0.03em;
 color: var(--title-text-colors);
 }
 
-.section-list {
+.section__list {
     margin-top: 0;
     margin-bottom: 0;
     padding-right: 0;
     display: flex;
     }
 
-.work-item {
+.work__item {
     width: 370px;
     position: relative;
     &:not(:last-child) {
@@ -29,7 +29,7 @@ color: var(--title-text-colors);
         }
 }   
 
-.work-name {
+.work__name {
     display: flex;
     position: absolute;
     justify-content: center;
