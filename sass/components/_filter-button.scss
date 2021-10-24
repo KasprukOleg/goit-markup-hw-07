@@ -1,4 +1,4 @@
-.filter-button {
+.filter__button {
     display: inline-block;
     border-radius: 4px;
     padding: 6px 22px;
@@ -28,7 +28,7 @@
     }  
 }
  
-  .filter-button-list {
+  .filter__button--list {
      color: var(--title-text-colors);
      font-style: normal;
      font-weight: 500;
@@ -37,8 +37,8 @@
      letter-spacing: 0.02em;
      }
  
-.filter .filter-button:hover,
-.filter .filter-button :focus {
+.filter .filter__button:hover,
+.filter .filter__button :focus {
      background-color: var(--accent-color);
      color: var(--hero-text-color);
      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
