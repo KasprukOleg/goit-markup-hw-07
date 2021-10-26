@@ -25,7 +25,6 @@
     /* -------FLEX-CONTAINER -------*/
     
 .content {
-    width: 1170px;
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
@@ -93,7 +92,7 @@
         overflow: auto;
         color: var(--hero-text-color);
         background-color: var(--accent-color);
-        transform: translateY(100%);
+        transform: translateY(101%);
         transition: transform 250ms var(--timing-function);
         }
     

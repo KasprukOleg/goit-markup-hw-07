@@ -39,6 +39,11 @@
     .priorities__box:not(:last-child) {
         margin-right: 30px;
     }
+
+    .priorities__box {
+        width: 270px;
+        height: 251px;
+    }
     
     .priorities__logos {
         display: flex;

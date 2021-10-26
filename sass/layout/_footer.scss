@@ -27,8 +27,20 @@
     font-weight: normal;
     font-size: 14px;
     letter-spacing: 0.03em;
+    cursor: pointer;
     color: var(--hero-text-color);
     }
+
+.town__street:hover, 
+.town__street:focus {
+    color: var(--accent-color);
+}
+
+.contact:hover, 
+.contact:focus {
+    color: var(--accent-color);
+}
+
 
 .contact {
     font-style: normal;
@@ -42,15 +54,13 @@
     }
 
 .contact__list {
-    margin-bottom: 0;
-    padding-left: 0;
-    }
+    margin: 0;
+}
 
 .mail {
     margin-bottom: 9px;
     } 
 
 .town__street {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 9px;
     }

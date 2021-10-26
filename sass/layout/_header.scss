@@ -2,6 +2,7 @@
     display: block;
     border-bottom: 1px solid #ECECEC;
     background-color: var(--hero-text-color);
+    margin: 0;
     }
 
 .wrapper, .main-nav {
@@ -11,6 +12,9 @@
 
 .main-nav__logo {
     margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
     }
 
 .logo {
@@ -33,6 +37,7 @@
 .site-nav {
     display: flex;
     align-items: center;
+    
     }
 
 .list {
@@ -89,10 +94,6 @@ transition: color 250ms var(--timing-function);
     background-color: var(--accent-color);
     }
 
-.contacts__connection {
-    margin-left: auto;
-    }
-
 .ul {
     list-style: none;
     text-decoration: none;
@@ -104,6 +105,8 @@ transition: color 250ms var(--timing-function);
     margin-left: auto;
     align-items: center;
     font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -117,6 +120,10 @@ transition: color 250ms var(--timing-function);
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-items: center;
+    text-decoration: none;
     color: var(--primery-color);
     &:hover {
         color: var(--accent-color);
