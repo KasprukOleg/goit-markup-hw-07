@@ -13,7 +13,8 @@
     transition-property: background-color, border;
     transition-duration: 250ms;
     transition-timing-function: var(--timing-function);
-    &:hover {
+    &:hover,
+    &:focus{
         fill: var(--accent-color);
         }
     }
