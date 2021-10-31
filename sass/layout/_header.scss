@@ -135,7 +135,8 @@ transition: color 250ms var(--timing-function);
     align-items: center;
     text-decoration: none;
     color: var(--primery-color);
-    &:hover {
+    &:hover,
+    &:focus {
         color: var(--accent-color);
         transition: color 250ms var(--timing-function);
         }

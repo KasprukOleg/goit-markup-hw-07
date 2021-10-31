@@ -44,7 +44,7 @@
     margin-bottom: 30px;
     width: 370px;
     &:hover,
-    &:hover {
+    &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 6px 4px rgba(0, 0, 0, 0.16);
@@ -92,6 +92,7 @@
         overflow: hidden;
         color: var(--hero-text-color);
         background-color: rgba(33,150,243,0.9);
+        transition-property: transform;
         transform: translateY(101%);
         transition: transform 250ms var(--timing-function);
         }
